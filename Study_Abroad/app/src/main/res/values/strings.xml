@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Study_Abroad</string>
+    <string-array name="places">
+        <item>Rome</item>
+        <item>Dublin</item>
+        <item>Tokyo</item>
+    </string-array>
+</resources>
