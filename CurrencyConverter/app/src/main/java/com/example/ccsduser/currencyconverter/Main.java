@@ -49,19 +49,19 @@ public class Main extends AppCompatActivity {
                     current = Double.parseDouble(usCurrency);
                 }
 
-                if(rbCanada.isSelected())
+                if(rbCanada.isChecked())
                 {
                     newMoney = Converter(current, exchangeCanada);
                     MoneySymbol = '$';
                 }
 
-                if(rbEuro.isSelected())
+                if(rbEuro.isChecked())
                 {
                     newMoney = Converter(current, exchangeEuro);
                     MoneySymbol = '€';
                 }
 
-                if(rbPeso.isSelected())
+                if(rbPeso.isChecked())
                 {
                     newMoney = Converter(current, exchangePeso);
                     MoneySymbol = '$';
